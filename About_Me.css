@@ -6,10 +6,10 @@ h1 {
 
 }
 .image {
-float:none;
-margin: 0 10px 0 10px;
-border-radius: 50%;
-height: 50px;
-width: 50px;
+position: fixed;
+top: 0;
+right: 0;
+-webkit-transform: rotate(90deg);
+transfrom: rotate(90deg);
 
 }
