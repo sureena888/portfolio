@@ -1,15 +1,19 @@
-h1 {
-  position: absolute;
-  top: 5px;
-  left: 2px;
+#heading {
+  text-align: center;
   color: purple;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  text-decoration: underline;
 
+}
+
+.background{
+  opacity: 0.5;
 }
 .image {
 position: fixed;
 top: 0;
 right: 0;
 -webkit-transform: rotate(90deg);
-transfrom: rotate(90deg);
+
 
 }
